@@ -31,7 +31,7 @@ const Sidebar = ({ toggle }) => {
 
   const handleClickOutside = (e) => {
     const click = e.clientX;
-    if (click > 80) {
+    if (click > 80 && e.target.tagName === "NAV") {
       setCollapsed(true);
     }
   };
