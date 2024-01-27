@@ -27,10 +27,6 @@ const Invoice = ({ children, data, id }) => {
           </DialogTitle>
           <div className="flex flex-col gap-3 text-sm text-muted-foreground pb-6">
             <div className="flex items-center justify-between">
-              {/* <div className="flex flex-col">
-                <span className="text-xs">Issue Date</span>{" "}
-                <span className="text-darkestText">12/12/2018</span>
-              </div> */}
               <div></div>
               <div className="flex flex-col">
                 <span className="text-xs text-end">Issue Date</span>
