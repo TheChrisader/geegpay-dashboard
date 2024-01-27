@@ -29,6 +29,13 @@ const Sidebar = ({ toggle }) => {
 
   const shouldCollapse = useMediaQuery("(max-width: 1180px)");
 
+  const handleClickOutside = (e) => {
+    const click = e.clientX;
+    if (click > 80) {
+      setCollapsed(true);
+    }
+  };
+
   useEffect(() => {
     if (shouldCollapse) {
       setCollapsed(true);
@@ -53,6 +60,9 @@ const Sidebar = ({ toggle }) => {
         />
       </Button>
       <nav
+        onClick={(e) => {
+          handleClickOutside(e);
+        }}
         className={`${
           collapsed ? "hide" : "show"
         } w-[80px] max-h-[876px] h-screen border-r flex flex-col justify-between pt-5 pb-[22px] border-sidebarBorder bg-sidebar max-[1400px]:h-screen max-[1180px]:sticky max-[1180px]:top-0 max-[1180px]:z-20 max-[1180px]:overlay-screen`}
