@@ -1,6 +1,6 @@
 // ThemeProvider.js
 // import { useState } from "react";
-import ThemeContext from "./ThemeContext";
+import ThemeContext from "./themeContext";
 
 const ThemeProvider = ({ children, theme }) => {
   //   const [theme, setTheme] = useState("light");
