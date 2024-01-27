@@ -8,7 +8,7 @@ export const tableHeads = [
 
 export const tableData = [
   {
-    invoiceId: "gt60c",
+    invoiceId: "0082995",
     name: "Marcus Bergson",
     img: "/assets/marcus.png",
     date: "Nov 15, 2023",
@@ -16,7 +16,7 @@ export const tableData = [
     status: "Paid",
   },
   {
-    invoiceId: "gt60b",
+    invoiceId: "0082994",
     name: "Jaydon Vaccaro",
     img: "/assets/jaydon.png",
     date: "Nov 15, 2023",
@@ -24,7 +24,7 @@ export const tableData = [
     status: "Refund",
   },
   {
-    invoiceId: "gt60a",
+    invoiceId: "0082993",
     name: "Corey Schleifer",
     img: "/assets/corey.png",
     date: "Nov 14, 2023",
@@ -32,7 +32,7 @@ export const tableData = [
     status: "Paid",
   },
   {
-    invoiceId: "gt60d",
+    invoiceId: "0082992",
     name: "Cooper Press",
     img: "/assets/cooper.png",
     date: "Nov 14, 2023",
@@ -40,7 +40,7 @@ export const tableData = [
     status: "Refund",
   },
   {
-    invoiceId: "gt60e",
+    invoiceId: "0082991",
     name: "Phillip Lubin",
     img: "/assets/phillip.png",
     date: "Nov 14, 2023",
