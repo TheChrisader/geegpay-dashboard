@@ -3,7 +3,7 @@ import TrendDown from "./icon/trendDown";
 
 const Report = ({ report }) => {
   return (
-    <div className="w-[239px] min-w-[200px] flex-1 h-[179px] bg-mainWhite p-4 outline outline-1 outline-lightBorder rounded-[14px]">
+    <div className="w-[239px] min-w-[200px] max-[1400px]:min-w-[140px] max-[1300px]:min-w-[200px] flex-1 h-[179px] bg-mainWhite p-4 outline outline-1 outline-lightBorder rounded-[14px]">
       <div className="flex flex-col gap-[10px]">
         <div className="flex items-center -mt-[2px] -mr-[2px] justify-between">
           <report.Icon />
@@ -36,7 +36,7 @@ const Report = ({ report }) => {
             </span>
           </div>
           <span
-            className={`font-inter font-normal text-sm leading-[16.94px] text-reportMonth whitespace-nowrap max-[1415px]:whitespace-normal `}
+            className={`font-inter font-normal text-sm leading-[16.94px] text-reportMonth whitespace-nowrap max-[1415px]:whitespace-normal max-[1345px]:-mt-3 max-[1300px]:-mt-0`}
           >
             vs. previous month
           </span>

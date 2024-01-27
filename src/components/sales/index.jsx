@@ -6,8 +6,8 @@ const Sales = () => {
   const [timeframe, setTimeframe] = useState("Monthly");
 
   return (
-    <section className="w-[807px] h-[374px] flex flex-col gap-4 px-5 py-4 bg-mainWhite rounded-[14px] border border-lightBorder max-[1400px]:w-full max-[1400px]:h-fit">
-      <div className="flex w-[766px] m-[-2px] justify-between items-center max-[1400px]:w-full">
+    <section className="min-w-[807px] h-[374px] flex flex-col gap-4 px-5 py-4 bg-mainWhite rounded-[14px] border border-lightBorder max-[1300px]:w-full max-[1300px]:min-w-0 max-[1300px]:h-fit">
+      <div className="flex w-[766px] m-[-2px] justify-between items-center max-[1300px]:w-full">
         <span className="font-semibold text-lg leading-[26px] text-darkText">
           Sales Trends
         </span>

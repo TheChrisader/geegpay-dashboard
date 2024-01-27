@@ -19,7 +19,7 @@ const OrderTable = () => {
           {tableHeads.map((head, i) => (
             <TableHead
               key={i}
-              className={" max-[1400px]:w-[250px] " + head.class}
+              className={" max-[1300px]:w-[250px] " + head.class}
             >
               {head.name}
             </TableHead>

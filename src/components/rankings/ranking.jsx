@@ -12,7 +12,7 @@ const Ranking = ({ ranking, index }) => {
   });
 
   return (
-    <div className="w-[452px] flex flex-col gap-5 max-[1417px]:w-[412px] max-[1400px]:w-[352px] max-[1000px]:w-full">
+    <div className="w-[452px] flex flex-col gap-5 max-[1417px]:w-full max-[1400px]:w-[317px] max-[1000px]:w-full">
       <div className="flex flex-col">
         <span className="font-semibold text-lg leading-[26px] text-rankingTitle mb-[17px]">
           {ranking.title}

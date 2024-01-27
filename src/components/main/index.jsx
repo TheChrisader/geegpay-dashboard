@@ -25,7 +25,7 @@ const Main = () => {
         height: `calc(100vh - 90px)`,
       }}
     >
-      <div className="flex gap-5 max-[1400px]:flex-col">
+      <div className="flex gap-5 max-[1300px]:flex-col">
         <Sales />
         <Reports />
       </div>
